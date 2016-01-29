@@ -1,0 +1,45 @@
+doctype html
+html(ng-app="angieApp" lang="lang")
+  head
+  meta(charset='utf-8')
+  title Angie Koiman - UX/UI Designer
+  link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic' rel='stylesheet' type='text/css')
+  //bootstrap
+  link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+  
+  //angular
+  script(src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js")
+  script(src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.js")
+  script(src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-sanitize.js")
+  
+  //bootstrap js
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+  script(src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
+  
+  //custom styles 
+  link(rel="stylesheet" href="styles/style.css")
+
+  //module
+  script(src="scripts/angie-app.js")
+
+  //Directives
+  script(src="scripts/directives/angular-scroll.min.js")
+
+  //Controllers
+  script(src="scripts/controllers/mainCtrl.js")
+  script(src="scripts/controllers/productCtrl.js")
+  script(src="scripts/controllers/categoryCtrl.js")
+
+  //Models
+  script(src="scripts/models/products.js")
+
+  //Holder
+  script(src="http://cdnjs.cloudflare.com/ajax/libs/holder/2.8.1/holder.min.js")
+  
+  script(src="scripts/config/route.js")
+  script(src="scripts/libs/angular-translate.min.js")
+
+  //langs
+  script(src="scripts/config/locale.js")
+  body(ng-view)
+    

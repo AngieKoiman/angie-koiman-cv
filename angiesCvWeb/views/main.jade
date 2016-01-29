@@ -1,0 +1,101 @@
+.container-fluid
+  .row
+    .header
+      .navbars
+        nav
+          ul
+            li(du-scrollspy="mobile")
+              hr
+              a(href="#mobile" du-smooth-scroll duration="1000" translate="") sections.mobile 
+            li(du-scrollspy="web")
+              hr
+              a(href="#web" du-smooth-scroll duration="1000" translate="") sections.web 
+            li.hidden
+              a(href="#grafic" translate="") sections.graphic
+            li(du-scrollspy="contact")
+              hr
+              a(href="#contact" du-smooth-scroll duration="1000" translate="") sections.contact
+        nav.lang-selector
+          span 
+            a(ng-click="changeLang('es')" href="") Espa&ntilde;ol 
+            span / 
+            a(ng-click="changeLang('en')" href="") English 
+            span /
+            a(ng-click="changeLang('no')" href="") Norsk 
+      .text-center
+        .logo
+          img(src="assets/logo.png")
+        br
+        a.btn.btn-portfolio.btn-lg(translate="" href="#mobile" du-smooth-scroll duration="1000" ) home.viewPortfolio
+    section#mobile
+      .unskew
+        .text-center
+          hr
+        h2.title.text-center(translate="")  sections.mobile
+        .container
+          .col-xs-12.col-sm-6.col-lg-3(ng-repeat-start="product in products.list.mobile")
+            .product
+              .text-center
+                a(href="#product/{{product.name | lowercase}}")
+                  img(src="{{product.thumbnail}}")
+              br
+              .text-center {{product.name}}
+          .clearfix(ng-if="$index%4==3")
+          div(ng-repeat-end="") 
+    section#web
+      .unskew
+        
+        .text-center
+          hr
+        h2.title.text-center(translate="") sections.web
+        .container
+          .col-xs-12.col-sm-6.col-lg-3(ng-repeat-start="product in products.list.web")
+            .product
+              .text-center
+                a(href="#product/{{product.name | lowercase}}")
+                  img(src="{{product.thumbnail}}")
+              br
+              .text-center {{product.name}}
+
+          .clearfix(ng-if="$index%4==3")
+          div(ng-repeat-end="") 
+      #contact    
+    .decorative
+    .decorative-two
+    footer       
+      article
+        .text-center
+          hr
+        h2.title.text-center(translate="") sections.contact
+        .container
+          .row.hidden
+            .col-xs-12.col-sm-12.col-md-8
+              form
+                input.form-control(placeholder="{{'home.mail' | translate}}" type="email")
+                br
+                textarea.form-control(placeholder="{{'home.message' | translate}}" rows="4")
+                br
+                button.btn.btn-send(translate="") home.send
+            .col-xs-12.col-sm-12.col-md-4
+          .row(style="margin-top:90px")
+            .col-xs-12.col-sm-6.col-lg-3
+              .text-center
+                img(src="assets/mail.png")
+                p(style="margin-top:10px;font-weight:300")
+                  a.verde(href="mailto:ang.koiman@gmail.com") ang.koiman@gmail.com
+            .col-xs-12.col-sm-6.col-lg-3
+              .text-center
+                img(src="assets/telefono.png") 
+                p(style="margin-top:10px;font-weight:300" ) 
+                  a.verde(href="tel:11 69663117") 11 69663117
+            .col-xs-12.col-sm-6.col-lg-3
+              .text-center
+                img(src="assets/linkedin.png")
+                p(style="margin-top:10px;font-weight:300")
+                  a.verde(href="https://ar.linkedin.com/pub/angie-koiman/61/122/4a7" target="_blank") Linkedin
+            .col-xs-12.col-sm-6.col-lg-3
+              .text-center
+                a(href="assets/KoimanCV.pdf" target="_blank")
+                  img(src="assets/descargar.png")
+                p(style="margin-top:10px;font-weight:300" )  
+                  a.verde(translate="" href="assets/KoimanCV.pdf" target="_blank") downloadcv

@@ -1,0 +1,140 @@
+{
+  "tags":[
+  "interactionDesign",
+  "graphicInterfaceDesign",
+  "mobileApp",
+  "usability", 
+  "UI", 
+  "ilustration",
+  "graphicDesign",           
+  "playbility",              
+  "gameDesign",              
+  "android",                 
+  "ios",                     
+  "webDesign",               
+  "informationArq",          
+  "responsiveDesign",        
+  "multiDevice",             
+  "wireframes",              
+  "mockUp",                  
+  "ipad"                    
+  ],
+  "products":{
+  "mobile":[
+    {
+      "name"        : "Arqi",
+      "thumbnail"   : "/products/thumbnails/mobile/arqi.png",
+      "header"      : "/products/headers/header-arqi.png",
+      "headerColor" : "#2eb3b6",
+      "description" : "DescriptionArqi",
+      "tags"        : ["interactionDesign" ,"graphicInterfaceDesign","mobileApp", "usability", "UI", "graphicDesign", "android","ios","informationArq"],
+      "image"       : "/products/contents/arqi"
+    },
+    {
+      "name"        : "Magnamente",
+      "thumbnail"   : "/products/thumbnails/mobile/magnamente.png",
+      "header"      : "/products/headers/magnamente.png",
+      "headerColor" : "#65326d",
+      "description" : "DescriptionMagnamente",
+      "tags"        : ["interactionDesign", "multiDevice" ,"graphicInterfaceDesign","mobileApp", "usability", "UI", "ilustration", "graphicDesign", "playbility","gameDesign","android","ios","informationArq"],
+      "image"       : "/products/contents/magnamente"
+    },
+    {
+      "name"        : "Pet Date",
+      "thumbnail"   : "/products/thumbnails/mobile/pet-date.png",
+      "header"      : "/products/headers/petdate.png",
+      "headerColor" : "#c94955",
+      "description" : "DescriptionPetDate",
+      "tags"        : ["interactionDesign", "graphicInterfaceDesign","mobileApp", "usability", "UI", "graphicDesign","ios","informationArq"],
+      "image"       : "/products/contents/petdate"
+      
+    },
+    {
+      "name"        : "BA Mascotas",
+      "thumbnail"   :"/products/thumbnails/mobile/mascotas.png",
+      "header"      : "/products/headers/mascotas.png",
+      "headerColor" : "#f7d00f",
+      "description" : "DescriptionMascotas",
+      "tags"        : ["informationArq", "interactionDesign", "graphicInterfaceDesign","mobileApp", "usability", "UI", "graphicDesign", "ios", "android"],
+      "image"       : "/products/contents/mascotas"
+    
+    },
+    {
+      "name"        : "Time´s app",
+      "thumbnail"   : "/products/thumbnails/mobile/times.png",
+      "header"      : "/products/headers/times.png",
+      "headerColor" : "#f2303f", 
+      "description" : "DescriptionTimes",
+      "tags"        : ["interactionDesign", "informationArq" , "graphicInterfaceDesign","mobileApp", "usability", "UI", "graphicDesign", "android"],
+      "image"       : "/products/contents/times"
+
+    },
+    {
+      "name"        : "Ilcollect",
+      "thumbnail"   : "/products/thumbnails/mobile/ilcollect.png",
+      "fullWidth"   : true,
+      "header"      : "/products/headers/ilcollect.png",
+      "headerColor" : "#fff",
+      "description" : "DescriptionIlcolect",
+      "tags"        : ["interactionDesign", "graphicInterfaceDesign","mobileApp", "usability", "UI", "ilustration", "graphicDesign", "playbility", "gameDesign", "android", "ios", "multiDevice"],
+      "image"       : "/products/contents/ilcollect"
+    },
+    {
+      "name"        : "Alegria",
+      "thumbnail"   : "/products/thumbnails/mobile/alegria.png",
+      "header"      : "/products/headers/header-alegria.png",
+      "headerColor" : "#ec2784",
+      "description" : "DescriptionAlegria",
+      "tags"        : ["interactionDesign" ,"graphicInterfaceDesign","mobileApp", "usability", "UI", "graphicDesign", "android","ios","informationArq"],
+      "image"       : "/products/contents/alegria"
+    }
+  ],
+  "web":[
+    {
+      "name": "John Deere",
+      "thumbnail":"/products/thumbnails/web/john-deere.png",
+      "header"      : "/products/headers/header-john.png",
+      "headerColor" : "#f2f2f2", 
+      "description" : "DescriptionJohnDeere",
+      "tags"        : ["multiDevice", "graphicInterfaceDesign","usability", "UI", "graphicDesign", "webDesign", "responsiveDesign"],
+      "image"       : "/products/contents/johndeere"
+    },
+    {
+      "name": "Ministerio de defensa",
+      "thumbnail":"/products/thumbnails/web/defensa.png",
+      "header"      : "/products/headers/header-ministerio-defensa.png",
+      "headerColor" : "#231f20", 
+      "description" : "DescriptionDefensa",
+      "tags"        : ["interactionDesign", "ipad", "graphicInterfaceDesign","mobileApp", "usability", "UI", "ilustration", "graphicDesign", "playbility"],
+      "image"       : "/products/contents/defensa"
+    },
+    {
+      "name": "Data hipsters",
+      "thumbnail":"/products/thumbnails/web/data-hipsters.png",
+      "header"      : "/products/headers/header-data-hipster.png",
+      "headerColor" : "#262626", 
+      "description" : "DescriptionDataHipsters",
+      "tags"        : ["multiDevice", "graphicInterfaceDesign","usability", "UI", "graphicDesign", "webDesign", "responsiveDesign"],
+      "image"       : "/products/contents/data-hipsters"
+    },
+    {
+      "name": "Flowin",
+      "thumbnail":"/products/thumbnails/web/flowin.png",
+      "header"      : "/products/headers/header-flowin.png",
+      "headerColor" : "#550091", 
+      "description" : "DescriptionFlowin",
+      "tags"        : ["multiDevice", "graphicInterfaceDesign","usability", "UI", "graphicDesign", "webDesign", "responsiveDesign"],
+      "image"       : "/products/contents/flowin"
+    },
+    {
+      "name": "Totalcoin developers",
+      "thumbnail":"/products/thumbnails/web/totalcoin.png",
+      "header"      : "/products/headers/header-totalcoin.png",
+      "headerColor" : "#0f508e", 
+      "description" : "DescriptionTotalcoin",
+      "tags"        : ["multiDevice", "graphicInterfaceDesign","usability", "UI", "graphicDesign", "webDesign", "responsiveDesign"],
+      "image"       : "/products/contents/totalcoin"
+    }
+  ]
+}
+}
