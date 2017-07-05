@@ -2,6 +2,8 @@
 (function() {
   var angieApp;
 
-  angieApp = angular.module('angieApp', ['ngRoute', 'duScroll', 'pascalprecht.translate']);
+  angieApp = angular.module('angieApp', ['ngRoute', 'duScroll', 'pascalprecht.translate']).config(($locationProvider)-> {
+      $locationProvider.html5Mode(true);
+    });;
 
 }).call(this);
